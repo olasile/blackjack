@@ -24,7 +24,6 @@ class Game
 		@player.play_turn
 		return if @game_over
 
-
 		@dealer.play_turn
 		return if @game_over
 
