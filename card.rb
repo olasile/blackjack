@@ -1,5 +1,4 @@
 class Card
-	# CARD_TYPES = %w[face number ace].freeze
 	SUITS = %w[Spades Hearts Diamonds Clubs].freeze
 	FACE_CARDS = %w[Jack Queen King].freeze
 	FACE_CARD_VALUE = 10

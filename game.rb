@@ -20,20 +20,12 @@ class Game
 	def play
 		@deck.shuffle
 		deal_initial_cards
-		# check_for_initial_winner
-
-		# return if @game_over
-
-		puts "@player about to play turn"
 
 		@player.play_turn
-		puts "player has finished playing turn. game_over: #{@game_over}"
 		return if @game_over
 
 
-		puts "@dealer about to play turn"
 		@dealer.play_turn
-		puts "dealer has finished playing turn. game_over: #{@game_over}"
 		return if @game_over
 
 		end_game
@@ -53,13 +45,6 @@ class Game
 		puts "#{winner.to_s} wins with a score of #{winner.score}"
 		@game_over = true
 	end
-
-	# def check_for_initial_winner
-	# 	@players.each do |player|
-	# 		player.update_status
-	# 		return if player.game_over?
-	# 	end
-	# end
 end
 
 

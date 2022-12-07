@@ -48,16 +48,7 @@ class Player
 	end
 
 	def play_turn
-		# display_hand
-		# update_status
-		# return if game_over?
-		#
-		# display_instructions
-		# process_input_command
-		# return if @turn_ended
-
 		loop do
-			# display_hand
 			update_status
 			break if game_over?
 
@@ -93,7 +84,6 @@ class Player
 
 		loop do
 			break if valid_command?(command)
-			puts "command entered: #{command}"
 			puts "Invalid command. Type 'hit' or 'stay'. If you are a dealer and your score is less than #{Game::FORCE_DEALER_HIT_THRESHOLD}, you must hit."
 			command = gets.chomp
 		end
