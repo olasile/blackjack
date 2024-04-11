@@ -1,8 +1,24 @@
-## Update Capital Technical Task: Blackjack Implementation
+# README
 
-**Notes**
-- Testing: I was able to test most of the critical pieces, but wasn't able to test everything in the interest of saving time.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-- Error Handling: The application validates the player's input when hitting/staying.
+Things you may want to cover:
 
- 
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
